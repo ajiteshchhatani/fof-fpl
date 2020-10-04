@@ -6,7 +6,7 @@ function FPLDraftTable() {
     const url = 'https://draft.premierleague.com/api/league/10410/details';
     const [leagueData, setLeagueData] = useState([]);
     let rankData = [];
-    let F1Scores = [25, 10, 15, 11, 8, 5, 2, 0, 0, 0, 0, 0];
+    let F1Scores = [25, 20, 15, 11, 8, 5, 2, 0, 0, 0, 0, 0];
     useEffect(() => {
         fetch(proxyurl + url)
             .then((response) => response.json())
