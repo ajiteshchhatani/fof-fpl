@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,MAAO,WAAY,CACnB,MAAO,UAAW,CAClB,YACC,qBACD,CACA,MACC,WACD","file":"main.90c1947e.chunk.css","sourcesContent":["thead {color:green;}\r\ntbody {color:blue;}\r\ntable, th, td {\r\n border: 1px solid black;\r\n}\r\ntd, th{\r\n padding: 5px;\r\n}"]}
