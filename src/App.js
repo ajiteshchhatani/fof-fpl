@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 
 function FPLDraftTable() {
-    const proxyurl = "https://cors-anywhere.herokuapp.com/";
+    const proxyurl = "https://thingproxy.freeboard.io/fetch/";
     const url = 'https://draft.premierleague.com/api/league/10410/details';
     const [leagueData, setLeagueData] = useState([]);
     let rankData = [];
@@ -35,7 +35,7 @@ function FPLDraftTable() {
 
         setLeagueData(rankData);
 
-    }
+    };
 
     return (
         <div>
